@@ -1,0 +1,48 @@
+
+.carousel{
+    height: 200px;
+}
+
+.backg{
+    width: 50%;
+    height:90%;
+    position: fixed;
+    left:300px;
+    top: -85px;
+}
+.backg2{
+    width: 50%;
+    height:90%;
+    position: fixed;
+    right:-10px;
+    bottom:-1px;
+}
+/* background for bot card    */
+.bgcs{
+
+    width: 50%;
+    height:50%;
+    position: initial;
+    left: 30px;
+    top: 60px;
+
+    background-repeat: no-repeat;
+}
+/* for faculty page  */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.bg-image{
+    height: 150px;
+    width: 100%;
+     
+} 
+/* for faculty page  end*/
+/* for sample ntp for admin  */
+.marg{
+    margin-left:5%;
+   
+}
+/* for sample ntp for admin end */
