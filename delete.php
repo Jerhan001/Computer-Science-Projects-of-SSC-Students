@@ -17,6 +17,6 @@ $row = $userr -> fetch_assoc();
 
     if($user){
         $_SESSION['delete'] = $row['id'];
-        header("location:table.php");
+        header("location:student.data.php");
         
     }
