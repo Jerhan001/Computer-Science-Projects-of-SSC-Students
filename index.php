@@ -14,7 +14,7 @@ if(isset($_POST['login'])){
   if($totalcheck > 0){
     $_SESSION ["login"] = true;
     $_SESSION ["admin_id"] = $rowcheck["id"];
-    header("Location:table.php");
+    header("Location:student.data.php");
   }else{
     echo "<script> alert('Wrong username or Password');  </script>"; 
   }
