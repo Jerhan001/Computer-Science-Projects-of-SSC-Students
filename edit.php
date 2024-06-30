@@ -20,7 +20,7 @@ if(isset($_POST['update'])){
 
     $sqlus = "UPDATE students SET first_name = '$first_name' , middle_name = '$middle_name' , last_name = '$last_name', gender = '$gender', email = '$email' WHERE id = '$id' ";
     $con->query($sqlus) or die ($con->error); 
-    header('location:table.php');
+    header('location:student.data.php');
 }
 
 ?>
